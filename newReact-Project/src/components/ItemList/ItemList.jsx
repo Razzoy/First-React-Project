@@ -2,11 +2,10 @@ import style from './ItemList.module.scss'
 
 export function ItemList(props) {
 
-    const livretter = ['Pizza', 'Lasagne', 'Salater', 'Brød', 'Is']
     return (
         <ul>
-            {livretter.map((livret) => {
-                return 
+            {props.listItem.map((item) => {
+                <li>{item}</li>
             })}
         </ul>
     )
