@@ -1,5 +1,6 @@
 import { Greetings } from '../Greetings/Greetings'
 import style from './Main.module.scss'
+import { ItemList } from '../ItemList/ItemList'
 
 const livretter = ['Pizza', 'Lasagne', 'Salater', 'Brød', 'Is']
 
