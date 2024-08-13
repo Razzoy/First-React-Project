@@ -7,9 +7,9 @@ export function Nav() {
     <>
       <nav>
         <ul className={style.ulStyling}>
-            <li className={style.liStyling}><p>Liste 1</p></li>
-            <li className={style.liStyling}><p>Liste 2</p></li>
-            <li className={style.liStyling}><p>Liste 3</p></li>
+            <li className={style.liStyling}>Liste 1</li>
+            <li className={style.liStyling}>Liste 2</li>
+            <li className={style.liStyling}>Liste 3</li>
         </ul>
       </nav>
     </>
