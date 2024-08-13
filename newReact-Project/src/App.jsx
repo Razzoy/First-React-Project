@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <Header/>
+      <Header headerText = 'Props er mega epic'/>
       <Main/>
       <Footer/>
     </>
