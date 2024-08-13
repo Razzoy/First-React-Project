@@ -1,15 +1,16 @@
 import './App.scss'
-import Header from './components/Header/Header'
-import Nav from './components/Header/Nav/Nav'
-import Main from './components/Main/Main'
-import Footer from './components/Footer/Footer'
+import { Header } from './components/Header/Header'
+import { Main } from './components/Main/Main'
+import { Footer } from './components/Footer/Footer'
 
 function App() {
 
 
   return (
     <>
-      <p>Hej Verden!</p>
+      <Header/>
+      <Main/>
+      <Footer/>
     </>
   )
 }
