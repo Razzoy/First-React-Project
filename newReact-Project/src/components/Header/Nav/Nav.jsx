@@ -1,6 +1,6 @@
 import style from './Nav.module.scss';
 
-function Nav() {
+export function Nav() {
 
 
   return (
@@ -15,5 +15,3 @@ function Nav() {
     </>
   )
 }
-
-export default Nav

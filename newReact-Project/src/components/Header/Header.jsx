@@ -1,7 +1,7 @@
 import style from './Header.module.scss'
-import { Nav } from './components/Header/Nav/Nav'
+import { Nav } from './Nav/Nav'
 
-function Header() {
+export function Header() {
 
 
     return (
@@ -13,5 +13,3 @@ function Header() {
         </>
     )
 }
-
-export default Header

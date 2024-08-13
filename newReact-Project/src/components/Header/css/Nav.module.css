@@ -1,0 +1,8 @@
+.ulStyling {
+  display: flex;
+  flex-direction: column;
+}
+
+.liStyling {
+  list-style: none;
+}/*# sourceMappingURL=Nav.module.css.map */

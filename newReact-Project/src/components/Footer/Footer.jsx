@@ -1,6 +1,6 @@
-import style from './Footer.module.scss'
+// import style from './Footer.module.scss'
 
-function Footer() {
+export function Footer() {
 
 
   return (
@@ -9,5 +9,3 @@ function Footer() {
     </>
   )
 }
-
-export default Footer
